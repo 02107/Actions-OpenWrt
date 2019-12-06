@@ -16,4 +16,4 @@ git clone https://github.com/myflavor/luci-app-adbyby-plus package/lean/luci-app
 #change the default theme to material
 sed -i '14s/bootstrap/material/' feeds/luci/collections/luci/Makefile
 #change to 4.19 kernel 
-sed -i '16s/4.14/4.19/' feeds/luci/collections/luci/Makefile
+sed -i '16s/4.14/4.19/' target/linux/ramips/Makefile
