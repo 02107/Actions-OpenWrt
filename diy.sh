@@ -11,8 +11,10 @@ chmod -R +x package/luci-app-unblockneteasemusic
 #add adbyby plus with some changes
 rm -rf package/lean/luci-app-adbyby-plus
 git clone https://github.com/myflavor/luci-app-adbyby-plus package/lean/luci-app-adbyby-plus
+chmod -R +x package/lean/luci-app-adbyby-plus
+#back to old ssr plus version
 rm -rf package/lean/luci-app-ssr-plus
 git clone https://github.com/myflavor/luci-app-ssr-plus package/lean/luci-app-ssr-plus
-chmod -R +x package/lean/luci-app-adbyby-plus
+chmod -R +x package/lean/luci-app-ssr-plus
 #change the default theme to material
 sed -i '14s/bootstrap/material/' feeds/luci/collections/luci/Makefile
