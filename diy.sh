@@ -7,8 +7,7 @@
 #=================================================
 
 #back to old version
-#git reset --hard  db5d264ccfd7b8b2a1bf48b740027bd5d448a83f
-
+git reset --hard  db5d264ccfd7b8b2a1bf48b740027bd5d448a83f
 #add another unblockneteasemusic with some changes
 git clone https://github.com/myflavor/luci-app-unblockneteasemusic package/luci-app-unblockneteasemusic
 #add adbyby plus with some changes
