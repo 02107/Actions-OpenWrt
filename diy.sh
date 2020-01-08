@@ -15,6 +15,6 @@
 #back to old ssr plus version
 #rm -rf package/lean/luci-app-ssr-plus
 #git clone https://github.com/myflavor/luci-app-ssr-plus package/lean/luci-app-ssr-plus
-chmod -R +x package/lean/luci-app-ssr-plus
+#chmod -R +x package/lean/luci-app-ssr-plus
 #change the default theme to material
 sed -i '14s/bootstrap/material/' feeds/luci/collections/luci/Makefile
