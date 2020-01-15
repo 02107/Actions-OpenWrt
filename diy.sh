@@ -6,7 +6,7 @@
 #   Blog: https://p3terx.com
 #=================================================
 #add another unblockneteasemusic with some changes
-#git clone https://github.com/myflavor/luci-app-unblockneteasemusic package/luci-app-unblockneteasemusic
+git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic package/luci-app-unblockneteasemusic
 #chmod -R +x package/luci-app-unblockneteasemusic
 #add adbyby plus with some changes
 #rm -rf package/lean/luci-app-adbyby-plus
